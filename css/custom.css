@@ -1,0 +1,82 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 86px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#light {
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+
+form {
+    margin-top: 42px;
+    margin-bottom: 94px;
+}
+
+input, button {
+    border: 1px solid hsl(223, 87%, 63%);
+    border-radius: 28px;
+    height: 56px;
+}
+
+input {
+    color: hsl(223, 87%, 63%);
+    width: 400px;
+    padding-left: 20px;
+    margin-right: 18px;
+}
+
+button {
+    background-color: hsl(223, 87%, 63%);
+    color: #ffffff;
+    width: 200px;
+    border: 0;
+    box-shadow: 0px 6px 10px hsl(223, 100%, 88%);
+}
+
+button:hover {
+    background-color: hsl(223, 100%, 88%);
+    cursor: pointer;
+}
+
+#dashboard {
+    max-width: 640px;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.fa-circle {
+    color: hsl(223, 100%, 88%);
+}
+
+.fab {
+    color: hsl(223, 87%, 63%);
+}
+
+footer p {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
